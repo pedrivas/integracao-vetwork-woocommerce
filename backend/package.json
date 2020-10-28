@@ -4,6 +4,9 @@
   "main": "src/index.js",
   "license": "MIT",
   "dependencies": {
-    "exceljs": "^4.1.1"
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "axios": "^0.21.0",
+    "exceljs": "^4.1.1",
+    "woocommerce-api": "^1.5.0"
   }
 }
