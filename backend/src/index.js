@@ -3,8 +3,8 @@ const WooCommerceRestApi = require("@woocommerce/woocommerce-rest-api").default;
 
 const api = new WooCommerceRestApi({
   url: "http://petshoptocadasraposas.com.br",
-  consumerKey: "ck_7827b0e590d572e671b187b63765ba8545a4b077",
-  consumerSecret: "cs_4ec3d70b4a2631884bb4b7b4740822135dac4121",
+  consumerKey: "ck_YOURCONSUMERKEY",
+  consumerSecret: "cs_YOURCONSUMERSECRET",
   version: "wc/v3"
 });
 const Excel = require('exceljs');
@@ -14,7 +14,6 @@ const productsWorkbook = new Excel.Workbook();
 
 var dePara = [];
 
-// const productsFileName = './assets/2020-10-14_lista_produtos.xlsx'
 const deParaFileName = './assets/DEPARA_PRODUTOS.xlsx'
 
 deparaWorkbook.xlsx.readFile(deParaFileName).then(() => {
