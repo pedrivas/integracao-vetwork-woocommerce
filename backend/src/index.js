@@ -23,8 +23,8 @@ deparaWorkbook.xlsx.readFile(deParaFileName).then(() => {
   var quantityList = null
 
   var stockQuantityList = null;
-  idWooList = worksheet.getColumn(2).values 
-  quantityList = worksheet.getColumn(4).values 
+  idWooList = worksheet.getColumn(3).values 
+  quantityList = worksheet.getColumn(7).values 
 
   for (var numberReg = 2; numberReg <= idWooList.length; numberReg++ ){
     dePara.push([idWooList[numberReg],quantityList[numberReg]])
